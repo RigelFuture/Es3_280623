@@ -117,6 +117,10 @@ ol {
     padding-top: 25px;
 }
 
+li {
+    padding: 5px;
+}
+
 #make-focaccia {
     font-family: 'Roboto Slab', serif;
     font-weight: 800;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
 
-body, p {
+body, p, ul, ol {
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ article {
 }
 
 #titolo-and-foto {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .x-h1 {
@@ -87,4 +87,36 @@ article {
 div#feat p span {
     color: #ff6f23;
     font-weight: 600;
+}
+
+.mid-tit {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid lightblue;
+}
+
+.small-tit {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    padding: 20px 0 15px 0;
+}
+
+ol {
+    padding-top: 25px;
+}
+
+#make-focaccia {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+#mk-fc-ph {
+    padding-block: 10px;
+}
+
+#read-more {
+    padding-block: 10px;
 }

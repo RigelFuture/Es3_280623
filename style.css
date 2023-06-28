@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
 body, p {
     margin: 0;
 }
@@ -10,7 +12,7 @@ header {
 
 #logo {
     padding: 15px 0;
-    height: 80px;
+    height: 50px;
 }
 
 #sotto-logo {
@@ -24,9 +26,65 @@ header {
 header div#sotto-logo div {
     padding: 15px 0;
     color: #107777;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 header div#sotto-logo div span {
     font-weight: 700;
+}
+
+article {
+    width: 650px;
+    margin: 0 auto;
+}
+
+#titolo-and-foto {
+    margin-bottom: 20px;
+}
+
+.x-h1 {
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#titolo {
+    font-size: 29px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+.paragrafo {
+    padding: 15px 0 10px 0;
+}
+
+#img-focaccia {
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px 0px lightblue;
+}
+
+#Sally-Vegas {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 15px 0;
+}
+
+#img-and-didascalia {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#feat {
+    border-left: 1px solid orange;
+    padding-left: 13px;
+    margin-top: 5px;
+}
+
+div#feat p span {
+    color: #ff6f23;
+    font-weight: 600;
 }

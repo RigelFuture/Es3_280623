@@ -58,7 +58,15 @@ article {
     padding: 15px 0 10px 0;
 }
 
+/*
 #img-focaccia {
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px 0px lightblue;
+}
+*/
+
+#video-yt {
     width: 650px;
     border-radius: 10px;
     box-shadow: 4px 4px 7px 0px lightblue;

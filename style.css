@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
-
-body {
+body, p {
     margin: 0;
-    font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -28,7 +25,6 @@ header div#sotto-logo div {
     padding: 15px 0;
     color: #107777;
     font-size: 18px;
-    font-weight: 500;
 }
 
 header div#sotto-logo div span {
